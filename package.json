@@ -1,9 +1,10 @@
 {
-  "name": "standard-js-template",
+  "name": "react-static-site-template",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "repository": "https://github.com/YuCJ/standard-js-template.git",
+  "repository": "https://github.com/YuCJ/react-static-site-template.git",
   "author": "yucj <nakts0123@gmail.com>",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "NODE_NEV=development webpack serve --config ./webpack.config.dev.js --mode=development",
