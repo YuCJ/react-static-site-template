@@ -7,6 +7,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name]-[contenthash].js',
+    publicPath: 'dist',
   },
   resolve: {
     alias: {
@@ -34,7 +35,7 @@ const config = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       minify: false,
-      template: path.join(__dirname, 'src/index.html'),
+      template: path.join(__dirname, 'src/template.html'),
     }),
   ],
 }

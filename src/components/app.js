@@ -4,11 +4,21 @@ import styled from 'styled-components'
 
 const H1 = styled.h1`
   color: red;
-  font-size: 13em;
 `
 
 function App() {
-  return <H1>Test Page</H1>
+  return (
+    <article>
+      <H1>Example Page of React Static Site Template</H1>
+      <p>
+        See details at GitHub:{' '}
+        <a href="https://github.com/YuCJ/react-static-site-template">
+          YuCJ/react-static-site-template
+        </a>
+        .
+      </p>
+    </article>
+  )
 }
 
 export default hot(App)

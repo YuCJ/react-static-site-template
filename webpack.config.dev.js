@@ -3,6 +3,10 @@ const webpack = require('webpack')
 
 module.exports = {
   ...baseConfig,
+  output: {
+    ...baseConfig.output,
+    publicPath: '',
+  },
   devServer: {
     hot: true,
     watchContentBase: false,
