@@ -21,6 +21,7 @@
     "*.js": [
       "prettier --write",
       "eslint --fix",
+      "stylelint",
       "git add"
     ],
     "*.{json,css,md,html,htm}": [
@@ -57,6 +58,10 @@
     "prettier": "1.18.2",
     "rimraf": "^2.6.3",
     "standard-version": "^7.0.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
