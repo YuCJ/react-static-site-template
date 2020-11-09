@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/YuCJ/react-static-site-template/compare/v1.1.4...v1.2.0) (2020-11-09)
+
+
+### Features
+
+* add redux ([dd7fecb](https://github.com/YuCJ/react-static-site-template/commit/dd7fecb0f54d281991f03878479d00445b3e5906))
+
+
+### Chores
+
+* set devserver publicPath ([5b3b8e3](https://github.com/YuCJ/react-static-site-template/commit/5b3b8e38ab19cd7b1e74ac2a8da896e7889b41f5))
+* update dist ([701ece6](https://github.com/YuCJ/react-static-site-template/commit/701ece6e0d9bf9211a7da0a39f336db1212e630e))
+
+
+### Refactors
+
+* refactore files structure for redux ([8295a92](https://github.com/YuCJ/react-static-site-template/commit/8295a925d4d1f99341ba51c00c7d16a6283b4c1e))
+
 ### [1.1.4](https://github.com/YuCJ/react-static-site-template/compare/v1.1.3...v1.1.4) (2020-11-09)
 
 
