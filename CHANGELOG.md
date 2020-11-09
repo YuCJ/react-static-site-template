@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/YuCJ/react-static-site-template/compare/v1.1.3...v1.1.4) (2020-11-09)
+
+
+### Chores
+
+* prettierignore CHANGELOG.md ([6c98f2f](https://github.com/YuCJ/react-static-site-template/commit/6c98f2f052699784b857be80e2b702c8b8aa7f68))
+
 ### [1.1.3](https://github.com/YuCJ/react-static-site-template/compare/v1.1.2...v1.1.3) (2020-11-09)
 
 
