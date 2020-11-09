@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/YuCJ/react-static-site-template/compare/v1.1.2...v1.1.3) (2020-11-09)
+
+### Chores
+
+- add noscript message ([fe02678](https://github.com/YuCJ/react-static-site-template/commit/fe02678496f97bee2a39fe356578dce694338464))
+- add React.StrictMode ([80cbb34](https://github.com/YuCJ/react-static-site-template/commit/80cbb344050da6f96cc89679be69b4dce9d5c411))
+- use semi ([47727af](https://github.com/YuCJ/react-static-site-template/commit/47727aff66f3bd34cb7f1a4240e70ec7385374cf))
+
+### Documentations
+
+- add demo to README.md ([4a369d1](https://github.com/YuCJ/react-static-site-template/commit/4a369d103456235a642ce4386bc221441461cc1f))
+
 ### [1.1.2](https://github.com/YuCJ/react-static-site-template/compare/v1.1.1...v1.1.2) (2020-11-09)
 
 ### Chores
