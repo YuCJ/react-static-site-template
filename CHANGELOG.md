@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/YuCJ/react-static-site-template/compare/v1.1.1...v1.1.2) (2020-11-09)
+
+### Chores
+
+- fix typo in package.json ([16d1fee](https://github.com/YuCJ/react-static-site-template/commit/16d1feebb7123064030aad5d16b855043a120709))
+- update dist ([1a6ad5e](https://github.com/YuCJ/react-static-site-template/commit/1a6ad5e3f468cfa59a30516d1cf935c9a28543f7))
+
 ### [1.1.1](https://github.com/YuCJ/react-static-site-template/compare/v1.1.0...v1.1.1) (2020-11-09)
 
 ### Chores
