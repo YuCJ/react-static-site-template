@@ -6,6 +6,8 @@ This is a React + styled-components static site template.
 - [x] Prettier + ESLint (with StandardJS) + StyleLint
 - [x] CommitLint + Standard Version
 
+👉 [DEMO](https://yucj.github.io/react-static-site-template/)
+
 ## Dev
 
 ```
