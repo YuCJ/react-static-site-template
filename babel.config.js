@@ -4,7 +4,15 @@ const isTest = process.env.NODE_ENV === 'test'
 module.exports = {
   ignore: isTest ? [] : ['**/__test__/**/*'],
   presets: [
-    '@babel/env',
+    [
+      '@babel/env',
+      {
+        useBuiltIns: 'usage',
+        targets: {
+          browsers: 'last 2 versions, not dead', // Ref: https://github.com/browserslist/browserslist#best-practices
+        },
+      },
+    ],
     [
       '@babel/preset-react',
       {
@@ -13,29 +21,14 @@ module.exports = {
     ],
   ],
   plugins: [
+    'react-hot-loader/babel',
     [
       'babel-plugin-styled-components',
       {
-        pure: true,
+        displayName: !isProduction,
+        pure: isProduction,
       },
     ],
     '@babel/plugin-proposal-class-properties',
-    [
-      'inline-react-svg',
-      {
-        svgo: {
-          plugins: [
-            { removeScriptElement: true },
-            { removeViewBox: false },
-            /* Remove unused attrs produced by the editing software. `removeAttrs` syntax: https://goo.gl/YLuuEU */
-            {
-              removeAttrs: {
-                attrs: ['serif.id', 'xmlns.serif', 'data.name'],
-              },
-            },
-          ],
-        },
-      },
-    ],
   ],
 }
