@@ -1,10 +1,10 @@
-import { hot } from 'react-hot-loader/root'
-import React from 'react'
-import styled from 'styled-components'
+import { hot } from 'react-hot-loader/root';
+import React from 'react';
+import styled from 'styled-components';
 
 const H1 = styled.h1`
   color: red;
-`
+`;
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         .
       </p>
     </article>
-  )
+  );
 }
 
-export default hot(App)
+export default hot(App);
