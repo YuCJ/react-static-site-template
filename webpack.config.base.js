@@ -8,6 +8,11 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name]-[contenthash].js',
   },
+  resolve: {
+    alias: {
+      'react-dom': '@hot-loader/react-dom',
+    },
+  },
   module: {
     rules: [
       {
