@@ -1,6 +1,6 @@
 {
   "name": "react-static-site-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "repository": "https://github.com/YuCJ/react-static-site-template.git",
   "author": "yucj <nakts0123@gmail.com>",
@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "NODE_NEV=development webpack serve --config ./webpack.config.dev.js --mode=development",
     "build": "NODE_NEV=production webpack --config ./webpack.config.base.js --mode=production",
-    "release": "standard-version",
+    "release": "standard-version && git push --follow-tags origin master",
     "lint": "eslint ./src/**/*.js && stylelint ./src/**/*.js"
   },
   "husky": {
