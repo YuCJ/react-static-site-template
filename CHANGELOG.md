@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/YuCJ/react-static-site-template/compare/v1.0.2...v1.0.3) (2020-11-09)
+
+### Chores
+
+- add react-dom hot-loader ([851a3a3](https://github.com/YuCJ/react-static-site-template/commit/851a3a38df186b58e5e4bf0db9fb2438271904cf))
+- explicitly setting the core-js version ([b2c0e90](https://github.com/YuCJ/react-static-site-template/commit/b2c0e90d8f84c5345ef8d33544972237ace13257))
+- remove babel-plugin-inline-react-svg ([620107e](https://github.com/YuCJ/react-static-site-template/commit/620107e71b52cee95dc900d468dc2a0d6c517666))
+
 ### [1.0.2](https://github.com/YuCJ/react-static-site-template/compare/v1.0.1...v1.0.2) (2020-11-09)
 
 ### Chores
