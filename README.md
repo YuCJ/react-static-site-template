@@ -1,3 +1,27 @@
-# standard-js-template
+# React Static Site Template
 
-JavaScript project template wiht Babel, Prettier, and Standard code style
+This is a React + styled-components static site template.
+
+- [x] Webpack & Dev Server with hot-reload
+- [x] Prettier + ESLint (with StandardJS) + StyleLint
+- [x] CommitLint + Standard Version
+
+## Dev
+
+```
+npm run dev
+```
+
+## Build
+
+```
+npm run build
+```
+
+The distribution files will be built to `./dist`
+
+## Bump Version and Push Codes
+
+```
+npm run release
+```
