@@ -2,7 +2,7 @@ BIN_DIR ?= node_modules/.bin
 ROOT_DIR ?= ./
 ROOT_BIN_DIR ?= $(ROOT_DIR)node_modules/.bin
 P := "\\033[32m[+]\\033[0m"
-OUTPUT_DIR ?= lib
+OUTPUT_DIR ?= dist
 
 help:
 	@echo "\033[33mmake dev\033[0m - Watch source code and re-complie if there's any change"
