@@ -8,13 +8,14 @@
   "scripts": {
     "dev": "NODE_NEV=development webpack serve --config ./webpack.config.dev.js --mode=development",
     "build": "NODE_NEV=production webpack --config ./webpack.config.base.js --mode=production",
-    "release": "standard-version"
+    "release": "standard-version",
+    "lint": "eslint ./src/**/*.js && stylelint ./src/**/*.js"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "make lint"
+      "pre-push": "npm run lint"
     }
   },
   "lint-staged": {
