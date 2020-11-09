@@ -24,7 +24,7 @@
     "*.js": [
       "prettier --write",
       "eslint --fix",
-      "stylelint",
+      "stylelint --allow-empty-input",
       "git add"
     ],
     "*.{json,css,md,html,htm}": [
