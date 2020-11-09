@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/YuCJ/react-static-site-template/compare/v1.0.3...v1.1.0) (2020-11-09)
+
+### Features
+
+- add example page for the template ([26f7be4](https://github.com/YuCJ/react-static-site-template/commit/26f7be4abc346106e99ececb38e92e39d688be3a))
+
+### Chores
+
+- add stylelint flag --allow-empty-input ([ffbc1f0](https://github.com/YuCJ/react-static-site-template/commit/ffbc1f0fd587b151c5ca02c076d916fa9bb8dbe4))
+- update dist ([b3a1ed4](https://github.com/YuCJ/react-static-site-template/commit/b3a1ed4d4d101419f5fb69931f22883c5ead250f))
+
+### Documentations
+
+- update README.md ([7faf437](https://github.com/YuCJ/react-static-site-template/commit/7faf43752a89ff7fe37ea13f2905a0d4d4694109))
+
 ### [1.0.3](https://github.com/YuCJ/react-static-site-template/compare/v1.0.2...v1.0.3) (2020-11-09)
 
 ### Chores
