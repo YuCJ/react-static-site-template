@@ -11,13 +11,13 @@ This is a React + styled-components static site template.
 ## Dev
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 ## Build
 
 ```
-npm run build
+pnpm run build
 ```
 
 The distribution files will be built to `./dist`
@@ -25,5 +25,5 @@ The distribution files will be built to `./dist`
 ## Bump Version and Push Codes
 
 ```
-npm run release
+pnpm run release
 ```
